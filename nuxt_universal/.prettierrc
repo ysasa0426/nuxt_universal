@@ -1,0 +1,23 @@
+{
+  "printWidth": 80,
+  "tabWidth": 2,
+  "indent": ["error", 2],
+  "comma-dangle": [
+    2,
+    {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
+      "functions": "always-multiline"
+    }
+  ],
+  "semi": true,
+  "singleQuote": true,
+  "vue/html-closing-bracket-newline": ["error", { "multiline": "never" }],
+  "vue/script-indent": ["error", 2, { "baseIndent": 2 }],
+  "arrow-parens": ["error", "always"],
+  "bracketSpacing": true,
+  "htmlWhitespaceSensitivity": "ignore",
+  "trailingComma": "none"
+}
